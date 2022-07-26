@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>🌧 RAEN in NEAR's desert: tooling for ambitious Open Web apps</title>
+    <style>
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      a {
+        color: #66AEE2;
+      }
+      kbd {
+        background: white;
+        color: black;
+        padding: 0 0.2em;
+        border-radius: 5px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.5) inset;
+      }
+      .remark-slide-content {
+        background-size: contain;
+        font-family: Inter,sans-serif;
+        font-size: calc(.85em + 2vw);
+        padding: 1rem 4rem;
+        text-align: center;
+      }
+      .remark-slide-content h1 {
+        font-size: 2em;
+      }
+      .remark-slide-content h2 {
+        font-size: 1.5em;
+      }
+      .remark-slide-content em {
+        font-style: normal;
+        color: #508CA4;
+      }
+      .remark-slide-content > *:first-child {
+        margin-top: 0;
+      }
+      .remark-slide-number {
+        font-size: 0.3em;
+        display: none;
+      }
+      .small {
+        font-size: calc(.85em + 1.5vw);
+      }
+      .cramped {
+        letter-spacing: -0.13em;
+      }
+      .remark-code {
+        font-size: inherit;
+      }
+      @media screen {
+        body, body.remark-container {
+          background: black;
+          color: white;
+        }
+        .remark-slide-content {
+          background-color: black;
+        }
+        .remark-slide-scaler {
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <textarea id="source" style="display:none">
+
+class: small, small, left
+
+# 🌧 RAEN in NEAR's desert: tooling for ambitious Open Web apps
+
+*How to use the slides*:
+
+* &lt;kbd&gt;P&lt;/kbd&gt; toggle presenter notes
+* &lt;kbd&gt;?&lt;/kbd&gt; help menu
+* &lt;kbd&gt;&rarr;&lt;/kbd&gt; next slide
+
+Also, [here's the source](https://github.com/raendev/vision-talk)
+
+---
+
+class:small
+
+# 🌧
+
+# RAEN in NEAR's desert: *tooling for ambitious Open Web apps*
+
+<small>@raendev</small>
+
+---
+
+???
+
+We're gonna talk about two problems,  
+a big problem and a small problem.  
+
+---
+
+# *1*
+
+???
+
+The big problem is ecosystem-wide,  
+blockchain-ecosystem-wide,  
+dapp/web3/Open Web/dweb-ecosystem-wide,  
+and that problem is this:  
+
+--
+
+no one knows how to build dapps
+
+???
+
+No one knows how to build dapps!  
+Ok that's not strictly true,  
+some people have figured out some  
+useful patterns. But good luck  
+figuring out those patterns  
+if you're new.  
+Most people don't know,  
+most documentation doesn't go that far,  
+most tooling isn't that expansive.  
+
+---
+
+# *2*
+
+???
+
+The small problem is with NEAR smart contracts.  
+
+--
+
+black boxes
+
+???
+
+They're black boxes.  
+They don't play nicely with others.  
+Only the author of a contract  
+can really dig in  
+and figure out how to interact with that contract.  
+Everyone else needs to search for the source code,  
+or deconstruct web app workflows,  
+or give up.
+
+---
+
+???
+
+And now I assert  
+
+--
+
+## *2*
+
+???
+that solving the small problem  
+
+--
+
+🗝
+
+--
+
+## *1*
+
+
+???
+
+is key to fixing the big one.
+
+---
+???
+And if that's true, that's great!  
+Because we already solved the small problem.  
+The solution
+
+--
+
+# *RAEN*
+
+???
+is RAEN.
+
+---
+
+???
+
+To understand RAEN,  
+let's see how other people solved this problem.  
+
+Ethereum solved it with
+--
+
+# *ABI*
+
+???
+
+an "ABI" system.  
+ABIs are JSON files,  
+generated from a smart contract,  
+that contract authors distribute off-chain,  
+using GitHub or some other system.  
+(Pagoda fka Near Inc are copying this system.)  
+
+---
+
+class: small
+
+*WebAssembly* aka *Wasm*
+
+???
+
+WebAssembly aka Wasm (NEAR's runtime VM),  
+are solving this same problem  
+
+---
+
+# *WIT*
+???
+with Wit,  
+--
+
+*WebAssembly*
+???
+WebAssembly
+--
+
+*Interface*
+???
+Interface
+--
+
+*Types*
+???
+Types.  
+More compact and readable  
+than the JSON of ABIs,  
+Wit fits easily into a Custom Section  
+of a deployed smart contract.  
+So that's exactly what RAEN does.
+
+---
+
+<svg viewBox="0 0 16 16" version="1.1" width="75vmin" height="75vmin" aria-hidden="true"><path fill="#3fb950" fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>
+
+???
+
+This leapfrogs the ABI system.
+
+RAEN inspects your Rust smart contract  
+and generates Wit from it;  
+compiles your contract,  
+injects the Wit,  
+and compresses the whole thing,  
+making the end result smaller  
+than if you built without RAEN.
+
+Now anyone can generate  
+any tooling they need  
+for any given smart contract.  
+
+---
+
+class: left
+
+# *some-contract.near*
+
+???
+
+Just by knowing a contract's name,  
+You can generate  
+
+--
+
+↪ *some-contract.json*
+
+???
+
+an ABI.  
+
+---
+
+class: left
+
+# *some-contract.near*
+
+↪ *some-contract.ts*
+
+???
+
+Or Typescript.  
+
+---
+
+class: left
+
+# *some-contract.near*
+
+↪ *some-contract.rs*
+
+???
+
+Or cross-contract calls.  
+
+---
+
+class: left
+
+# *some-contract.near*
+
+↪ *some-contract.sh*
+
+???
+
+Or a CLI.  
+
+---
+
+[![Inspect some-contract.near using a schema built with RAEN and stored on NEAR](img/raen-admin.png)](https://raen.dev/admin)
+
+???
+
+Or an admin panel web app.  
+
+This one already exists.  
+It's called RAEN Admin.  
+You can `raen build` your contracts  
+and enjoy it  
+teach with it  
+collaborate with it  
+
+---
+
+# *raen.dev/admin*
+
+???
+
+today.
+
+---
+
+???
+
+A RAEN-maximized version of NEAR  
+becomes a fully-typed smart contract ecosystem,  
+a development platform  
+where all developers  
+can learn about  
+and script against  
+and build on top of  
+any already-deployed program  
+with confidence.
+
+Which circles us back to  
+
+---
+
+# *1*
+
+no one knows how to build dapps
+
+???
+
+the big problem.
+
+"No one knows how to build dapps"  
+and what this really means  
+is that we're all still figuring it out  
+together.
+
+New patterns are emerging,  
+new visions gaining salience.
+
+---
+
+???
+
+One vision for the Open Web  
+
+---
+
+![](img/arch/thin-app.svg)
+
+???
+
+is thin apps  
+
+---
+
+![](img/arch/thin-app-open-data.svg)
+
+???
+
+that access open data.  
+Apps that read, write, interact  
+with data from many smart contracts,  
+
+---
+
+![](img/arch/thin-app-own-data.svg)
+
+???
+
+some the app developers wrote themselves,  
+
+---
+
+![](img/arch/thin-app-other-data.svg)
+
+???
+
+some that pre-existed—  
+public infrastructure.
+
+---
+
+???
+
+And if that's your vision  
+what a boon  
+is a fully-typed ecosystem  
+of public infrastructure.  
+
+We're going long on this vision.  
+
+---
+![](img/framework/build.svg)
+???
+
+RAEN, born a build tool,  
+will grow into a framework,  
+helping ambitious developers  
+
+---
+![](img/framework/create.svg)
+???
+compose secure, well-architected smart contracts,  
+yes, and more than that.  
+Because ambitious apps  
+need more than just smart contracts.  
+
+---
+![](img/framework/frontend.svg)
+???
+They need frontends,  
+
+---
+![](img/framework/indexing.svg)
+???
+indexing layers,  
+
+---
+![](img/framework/complete.svg)
+???
+off-chain storage.  
+RAEN will pull these all together,  
+as well as yet-undiscovered architectural patterns,  
+and help devs keep apps fresh  
+with all these latest discoveries  
+as they emerge.  
+
+---
+class:left
+???
+Here's what this will look like in practice.  
+Let's follow three builders,
+--
+# 🐊
+???
+Ali,
+--
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🐝
+???
+Bob, and
+--
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🐨
+???
+Cal.  
+---
+class:left
+# 🐊
+
+???
+Ali just switched to NEAR  
+from some other blockchain,  
+and wants to build new defi offerings.  
+She opens her command line,  
+--
+`raen generate contract amm`
+
+???
+types "raen generate contract amm",  
+gets a new Automated Market Maker contract,  
+--
+
+`raen generate contract ft`
+
+???
+types "raen generate contract ft",  
+gets a new Fungible Token contract,  
+---
+class:left
+# 🐊
+```
+├── Raenfile  
+├── contracts/  
+│   ├── amm/  
+│   └── ft/  
+└── tests/  
+```
+???
+and starts hooking them together,  
+feels immediately productive  
+and useful  
+in her new ecosystem  
+with her new programming language.  
+---
+class:left
+# 🐝
+
+???
+Bob is a business founder frontend dev  
+with a product remixing data from  
+three existing contracts.  
+In his command line, he types  
+--
+`raen new project --use`
+
+???
+"raen new project --use" followed by the names  
+of those
+--
+
+&nbsp;&nbsp;&nbsp;&nbsp;`contract1.near`
+
+???
+three
+--
+
+&nbsp;&nbsp;&nbsp;&nbsp;`contract2.near`
+
+???
+smart
+--
+
+&nbsp;&nbsp;&nbsp;&nbsp;`contract3.near`
+
+???
+contracts.  
+---
+class:left
+# 🐝
+```
+├── Raenfile  
+└── frontend/  
+```
+???
+Gets a project configured  
+with a fully-typed frontend app,  
+that even gives him some reasonable starting UI,  
+---
+class:left
+# 🐝
+```
+├── Raenfile  
+├── frontend/  
+└── subgraphs/  
+```
+???
+and some Subgraph code to index those three contracts,  
+---
+class:left
+# 🐝
+```
+├── Raenfile  
+├── frontend/  
+├── subgraphs/  
+└── tests/  
+```
+???
+and tests to show how it's done.  
+he's already busy building business logic;  
+doesn't need to bother with boilerplate  
+or any reverse engineering.  
+---
+class:left
+# 🐨
+???
+Cal is making the switch from web2 to web3,  
+participating in their first hackathon.  
+--
+
+`raen new project`
+???
+They type "raen new project",  
+get a tutorial app—  
+---
+class:left
+# 🐨
+```
+├── Raenfile  
+├── contracts/  
+├── frontend/  
+├── subgraphs/  
+└── tests/  
+```
+???
+contracts, frontend, subgraphs, storage,  
+all hooked together.  
+They learn the ropes and build an app,  
+are proud of what they build,  
+continue hacking with their team after the awards ceremony,  
+grow the codebase easily from  
+proof of concept to  
+full-scale public infrastructure.  
+---
+???
+That's where we're headed.  
+That's how easy we want NEAR to be.  
+We'll get there in about six months.  
+
+Thanks for listening.  
+See you at NEARCON.
+
+    </textarea>
+    <script src="remark-latest.min.js"></script>
+    <script>var slideshow = remark.create()</script>
+  </body>
+</html>
