@@ -5,31 +5,38 @@
     <title>RAEN in NEAR's desert: tooling for ambitious Open Web apps</title>
     <link rel="icon" href="favicon.svg" />
     <style>
+      :root {
+        --fg: black;
+        --bg: white;
+        --link: #66AEE2;
+        --em: #508CA4;
+        --font-weight: 600;
+      }
       img {
         max-width: 100%;
         max-height: 100%;
       }
       a {
-        color: #66AEE2;
+        color: var(--link);
       }
       kbd {
         background: white;
-        color: black;
+        color: var(--fg);
         padding: 0 0.2em;
         border-radius: 5px;
         box-shadow: 0 0 4px rgba(0,0,0,0.5) inset;
       }
       .remark-notes-area {
-        background-color: black;
-        border-left: 1px solid #444;
-        color: #ddd;
-        font-family: Inter,sans-serif;
+        background-color: var(--bg);
+        font-family: sans-serif;
+        font-weight: 300;
         font-size: 0.85em;
       }
       .remark-slide-content {
         background-size: contain;
         font-family: Inter,sans-serif;
         font-size: calc(.85em + 2vw);
+        font-weight: var(--font-weight);
         padding: 1rem 4rem;
         text-align: center;
       }
@@ -41,7 +48,7 @@
       }
       .remark-slide-content em {
         font-style: normal;
-        color: #508CA4;
+        color: var(--em);
       }
       .remark-slide-content > *:first-child {
         margin-top: 0;
@@ -61,11 +68,11 @@
       }
       @media screen {
         body, body.remark-container {
-          background: black;
-          color: white;
+          background: var(--bg);
+          color: var(--fg);
         }
         .remark-slide-content {
-          background-color: black;
+          background-color: var(--bg);
         }
         .remark-slide-scaler {
           -moz-box-shadow: none;
@@ -73,10 +80,19 @@
           box-shadow: none;
         }
       }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: white;
+          --bg: black;
+          --link: #66AEE2;
+          --em: #508CA4;
+          --font-weight: 200;
+        }
+      }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200,600&display=swap" rel="stylesheet">
   </head>
   <body>
     <textarea id="source" style="display:none">
