@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="540" viewBox="0 0 1080 540" xml:space="preserve">
-<desc>Created with Fabric.js 4.2.0</desc>
-<defs>
-</defs>
+<desc>triangle at top with two arrows pointing to two separate squares</desc>
 <g transform="matrix(2.67 0 0 2.67 534.68 105.27)" id="triangle">
-<polygon style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,167,196); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-37.43,32.41 0,-32.41 37.43,32.41 " />
+<polygon style="stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,167,196); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-37.43,32.41 0,-32.41 37.43,32.41 " />
 </g>
 <g transform="matrix(2.37 0 0 2.37 534.25 442.6)" id="square-2"  >
-<rect style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(80,140,164); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-33.085" y="-33.085" rx="0" ry="0" width="66.17" height="66.17" />
+<rect style="stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(80,140,164); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-33.085" y="-33.085" rx="0" ry="0" width="66.17" height="66.17" />
 </g>
 <g transform="matrix(2.37 0 0 2.37 852.65 441.84)" id="square-3"  >
-<rect style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(80,140,164); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-33.085" y="-33.085" rx="0" ry="0" width="66.17" height="66.17" />
+<rect style="stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(80,140,164); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-33.085" y="-33.085" rx="0" ry="0" width="66.17" height="66.17" />
 </g>
 <g transform="matrix(-1.17 -1.17 0.59 -0.59 711.3 278.39)" id="arrow-3" >
-<polygon style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(101,101,101); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-37.21,0 -20.49,15.74 -3.76,31.48 -3.76,12.14 37.21,12.14 37.21,-13.21 -3.76,-13.21 -3.76,-31.48 -20.49,-15.74 " />
+<polygon style="stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(101,101,101); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-37.21,0 -20.49,15.74 -3.76,31.48 -3.76,12.14 37.21,12.14 37.21,-13.21 -3.76,-13.21 -3.76,-31.48 -20.49,-15.74 " />
 </g>
 <g transform="matrix(0 -1.4 0.84 0 534.62 276.09)" id="arrow-2" >
-<polygon style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(101,101,101); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-37.21,0 -20.49,15.74 -3.76,31.48 -3.76,12.14 37.21,12.14 37.21,-13.21 -3.76,-13.21 -3.76,-31.48 -20.49,-15.74 " />
+<polygon style="stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(101,101,101); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-37.21,0 -20.49,15.74 -3.76,31.48 -3.76,12.14 37.21,12.14 37.21,-13.21 -3.76,-13.21 -3.76,-31.48 -20.49,-15.74 " />
 </g>
 </svg>
