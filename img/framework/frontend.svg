@@ -5,33 +5,33 @@
 <defs>
 </defs>
 <g transform="matrix(1 0 0 1 131.71 540)" id="RAEN"  >
-		<text xml:space="preserve" font-family="Inter, sans-serif" font-size="80" font-style="normal" font-weight="100" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-107.92" y="25.13" >RAEN</tspan></text>
+		<text xml:space="preserve" font-family="Inter, sans-serif" font-size="80" font-style="normal" font-weight="600" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: black; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-107.92" y="25.13" >RAEN</tspan></text>
 </g>
 <g transform="matrix(1 0 0 5.72 280.38 540.39)" id="{"  >
-		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="200" font-style="normal" font-weight="100" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-30" y="62.83" >{</tspan></text>
+		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="200" font-style="normal" font-weight="300" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: black; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-30" y="62.83" >{</tspan></text>
 </g>
 <g transform="matrix(1 0 0 1 691.41 887.79)" id="smart-contracts"  >
-		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-375.97" y="12.57" >smart contracts</tspan></text>
+		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="600" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: black; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-375.97" y="12.57" >smart contracts</tspan></text>
 </g>
 <g transform="matrix(4.33 0 0 -1.87 475.61 961.45)" id="build-bg"  >
-<rect style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-37.46" y="-19.415" rx="0" ry="0" width="74.92" height="38.83" />
+<rect style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: black; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-37.46" y="-19.415" rx="0" ry="0" width="74.92" height="38.83" />
 </g>
 <g transform="matrix(1 0 0 1 378.23 963.44)" id="build-fg" >
-		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-51.97" y="12.57" >build</tspan></text>
+		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="600" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: white; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-51.97" y="12.57" >build</tspan></text>
 </g>
 <g transform="matrix(5.13 0 0 -1.87 852.29 960.86)" id="create-bg"  >
-<rect style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-37.46" y="-19.415" rx="0" ry="0" width="74.92" height="38.83" />
+<rect style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: black; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-37.46" y="-19.415" rx="0" ry="0" width="74.92" height="38.83" />
 </g>
 <g transform="matrix(1 0 0 1 725.63 962.85)" id="create-fg" >
-		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-55.96" y="12.57" >create</tspan></text>
+		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="600" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: white; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-55.96" y="12.57" >create</tspan></text>
 </g>
 <g transform="matrix(1 0 0 1 689.29 110.96)" id="frontend">
-		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-375.97" y="12.57" >frontend</tspan></text>
+		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="600" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: black; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-375.97" y="12.57" >frontend</tspan></text>
 </g>
 <g transform="matrix(9.79 0 0 -1.87 677.93 184.62)" id="react-bg" >
-<rect style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-37.46" y="-19.415" rx="0" ry="0" width="74.92" height="38.83" />
+<rect style="stroke: white; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: black; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-37.46" y="-19.415" rx="0" ry="0" width="74.92" height="38.83" />
 </g>
 <g transform="matrix(1 0 0 1 515.76 186.61)" id="react-fg">
-		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-191.62" y="12.57" >react</tspan></text>
+		<text xml:space="preserve" font-family="Inter,sans-serif" font-size="40" font-style="normal" font-weight="600" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: white; fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-191.62" y="12.57" >react</tspan></text>
 </g>
 </svg>
