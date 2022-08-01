@@ -5,22 +5,29 @@
     <title>RAEN in NEAR's desert: tooling for ambitious Open Web apps</title>
     <link rel="icon" href="favicon.svg" />
     <style>
+      :root {
+        --fg: black;
+        --bg: white;
+        --link: #66AEE2;
+        --em: #508CA4;
+        --font-weight: 600;
+      }
       img {
         max-width: 100%;
         max-height: 100%;
       }
       a {
-        color: #66AEE2;
+        color: var(--link);
       }
       kbd {
         background: white;
-        color: black;
+        color: var(--fg);
         padding: 0 0.2em;
         border-radius: 5px;
         box-shadow: 0 0 4px rgba(0,0,0,0.5) inset;
       }
       .remark-notes-area {
-        background-color: white;
+        background-color: var(--bg);
         font-family: sans-serif;
         font-weight: 300;
         font-size: 0.85em;
@@ -29,7 +36,7 @@
         background-size: contain;
         font-family: Inter,sans-serif;
         font-size: calc(.85em + 2vw);
-        font-weight: 600;
+        font-weight: var(--font-weight);
         padding: 1rem 4rem;
         text-align: center;
       }
@@ -41,7 +48,7 @@
       }
       .remark-slide-content em {
         font-style: normal;
-        color: #508CA4;
+        color: var(--em);
       }
       .remark-slide-content > *:first-child {
         margin-top: 0;
@@ -61,16 +68,25 @@
       }
       @media screen {
         body, body.remark-container {
-          background: white;
-          color: black;
+          background: var(--bg);
+          color: var(--fg);
         }
         .remark-slide-content {
-          background-color: white;
+          background-color: var(--bg);
         }
         .remark-slide-scaler {
           -moz-box-shadow: none;
           -webkit-box-shadow: none;
           box-shadow: none;
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: white;
+          --bg: black;
+          --link: #66AEE2;
+          --em: #508CA4;
+          --font-weight: 200;
         }
       }
     </style>
